@@ -364,6 +364,21 @@
   margin: 0;
 }
 
+/* Fade animation classes */
+.fade-in, .fade-up {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up {
+  transform: translateY(30px);
+}
+
+.fade-in.visible, .fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media (max-width: 960px) {
   .about-us-page .hero-frame, .sustainability-page .hero-frame {
     min-height: 60vh;
