@@ -225,7 +225,7 @@
 }
 
 .about-us-page .btn-outline:after, .sustainability-page .btn-outline:after {
-  content: url('../images/black-arrow.svg');
+  content: url('../Images/black-arrow.svg');
   transition: all 0.3s ease;
   position: absolute;
   right: 16px;
@@ -239,7 +239,7 @@
 
 .about-us-page .btn-outline:hover:after, 
 .sustainability-page .btn-outline:hover:after {
-  content: url('../images/white-arrow.svg');
+  content: url('../Images/white-arrow.svg');
   right: 12px;
 }
 
@@ -362,6 +362,21 @@
   color: white;
   font-size: 1.75rem;
   margin: 0;
+}
+
+/* Fade animation classes */
+.fade-in, .fade-up {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up {
+  transform: translateY(30px);
+}
+
+.fade-in.visible, .fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 960px) {
