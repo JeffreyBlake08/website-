@@ -225,7 +225,7 @@
 }
 
 .about-us-page .btn-outline:after, .sustainability-page .btn-outline:after {
-  content: url('../Images/black-arrow.svg');
+  content: url('./black-arrow.svg');
   transition: all 0.3s ease;
   position: absolute;
   right: 16px;
@@ -239,7 +239,7 @@
 
 .about-us-page .btn-outline:hover:after, 
 .sustainability-page .btn-outline:hover:after {
-  content: url('../Images/white-arrow.svg');
+  content: url('./white-arrow.svg');
   right: 12px;
 }
 
