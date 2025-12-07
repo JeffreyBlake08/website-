@@ -4,9 +4,6 @@
         <title>About Us - DewValley Foods</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Dew Valley Foods is Europe's largest and leading cooked bacon manufacturer.">
-        <meta name="keywords" content="bacon, cooked bacon, bacon manufacturer, bacon products, bacon company">
-        <meta name="robots" content="index, follow">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
@@ -17,52 +14,10 @@
         <script src="./common.js"></script>
         <script src="./jeffrey.js"></script>
         <style>
-            /* Version 4: Extra Large / Final - 600px height for split images, 80vh for hero */
-            .hero-frame {
-                min-height: 80vh !important;
-                position: relative;
-            }
-            .hero-img {
-                min-height: 80vh !important;
-                width: 100%;
-                object-fit: cover;
-            }
-            .split-image-frame {
-                min-height: 600px !important;
-                overflow: hidden;
-                border-radius: 12px;
-            }
-            .split-image {
-                min-height: 600px !important;
-                width: 100%;
-                object-fit: cover;
-            }
-            .smoking-hero-section .hero-frame {
-                min-height: 75vh !important;
-            }
-            .smoking-hero-section .hero-img {
-                min-height: 75vh !important;
-                width: 100%;
-                object-fit: cover;
-            }
-            /* Enhanced spacing for dramatic presentation */
-            .section {
-                padding: 100px 0 !important;
-            }
-            .stats-section {
-                padding: 120px 0 !important;
-            }
-            /* Larger stat cards */
-            .stat-card {
-                padding: 40px 20px !important;
-            }
-            .stat-number {
-                font-size: 4rem !important;
-            }
-            /* Enhanced accreditation logos */
-            .accreditation-logo {
-                height: 80px !important;
-            }
+            .hero-img { min-height: 500px !important; object-fit: cover; }
+            .hero-frame { min-height: 550px !important; }
+            .split-image-frame { min-height: 400px !important; overflow: hidden; }
+            .split-image { min-height: 400px !important; width: 100%; object-fit: cover; }
         </style>
     </head>
     
@@ -71,13 +26,13 @@
         <div class="main_wrap">
             <header class="navbar-header">
                 <div class="navbar-container">
-                    <a class="navbar-logo" title="DewValley Foods Home" href="./index.html">
+                    <a class="navbar-logo" href="./index.html">
                         <img src="./logo.svg" alt="DewValley Foods logo" class="top_logo">
                     </a>
 
                     <div class="right_nav">
 
-                        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                        <button class="mobile-menu-toggle">
                             <span class="burger-line"></span>
                             <span class="burger-line"></span>
                             <span class="burger-line"></span>
@@ -118,10 +73,9 @@
         
             <main class="main">
             
-            <!-- Hero Section -->
             <section class="section hero-section fade-in">
                 <div class="hero-frame">
-                    <img src="./about_factory.webp" class="hero-img" alt="Dew Valley Foods facility">
+                    <img src="./about_factory.webp" class="hero-img" alt="Factory">
                     <div class="hero-text">
                         <p class="hero-eyebrow">A PROUD IRISH ROOTS STORY</p>
                         <h1>Better with Dew Valley</h1>
@@ -130,7 +84,6 @@
                 </div>
             </section>
 
-            <!-- Split section - two column layout -->
             <section class="section split-section fade-up">
                 <div class="container">
                     <div class="row align-items-center g-5">
@@ -154,14 +107,13 @@
 
                         <div class="col-lg-6">
                             <div class="split-image-frame fade-up">
-                                <img src="./about_shop.webp" class="split-image" alt="Dew Valley products displayed on shelves">
+                                <img src="./about_shop.webp" class="split-image" alt="Shop">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Stats Section with animated counters -->
             <section class="section stats-section">
                 <div class="container">
                     <h2 class="stats-heading fade-up">Dew Valley at a glance</h2>
@@ -223,32 +175,23 @@
                 </div>
             </section>
 
-            <!-- Accreditation Carousel Section -->
             <section class="section accreditation-section">
                 <div class="accreditation-carousel-wrapper">
                     <div class="accreditation-carousel-inner">
-                        <img src="./about_icon_4.webp" class="accreditation-logo" alt="Sedex Member">
-                        <img src="./about_Icon_2.webp" class="accreditation-logo" alt="Red Tractor Certified">
-                        <img src="./about_icon_3.webp" class="accreditation-logo" alt="IFSA certification">
-                        <img src="./about_icon_5.webp" class="accreditation-logo" alt="FSC certification">
-                        <img src="./about_icon_6.webp" class="accreditation-logo" alt="ISO 9001 Certified">
-                        <img src="./about_Icon_1.webp" class="accreditation-logo" alt="UCD Dublin">
-                        <img src="./about_icon_7.webp" class="accreditation-logo" alt="BRCS Food Safety">
-                        <img src="./about_icon_4.webp" class="accreditation-logo" alt="Sedex Member">
-                        <img src="./about_Icon_2.webp" class="accreditation-logo" alt="Red Tractor Certified">
-                        <img src="./about_icon_3.webp" class="accreditation-logo" alt="IFSA certification">
-                        <img src="./about_icon_5.webp" class="accreditation-logo" alt="FSC certification">
-                        <img src="./about_icon_6.webp" class="accreditation-logo" alt="ISO 9001 Certified">
-                        <img src="./about_Icon_1.webp" class="accreditation-logo" alt="UCD Dublin">
-                        <img src="./about_icon_7.webp" class="accreditation-logo" alt="BRCS Food Safety">
+                        <img src="./about_icon_4.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_Icon_2.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_icon_3.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_icon_5.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_icon_6.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_Icon_1.webp" class="accreditation-logo" alt="Certification">
+                        <img src="./about_icon_7.webp" class="accreditation-logo" alt="Certification">
                     </div>
                 </div>
             </section>
 
-            <!-- Full-width hero with left-aligned text -->
             <section class="section hero-section smoking-hero-section fade-in">
                 <div class="hero-frame">
-                    <img src="./about_chef.webp" class="hero-img" alt="Chefs preparing cooked bacon in kitchen">
+                    <img src="./about_chef.webp" class="hero-img" alt="Chef">
                     <div class="hero-text smoking-hero-text">
                         <p class="hero-eyebrow">SMOKING TECHNOLOGY</p>
                         <h2>Traditional smoke, modern control</h2>
@@ -270,7 +213,7 @@
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6">
                             <div class="split-image-frame fade-up">
-                                <img src="./about_kitchen.webp" class="split-image" alt="Modern food production kitchen at Dew Valley">
+                                <img src="./about_kitchen.webp" class="split-image" alt="Kitchen">
                             </div>
                         </div>
 
@@ -300,26 +243,14 @@
             </div>
             <div class="footer_right">
                 <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./about-us.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="./our-products.html">Our Products</a>
-                    </li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./our-products.html">Our Products</a></li>
                 </ul>
                 <ul>
-                    <li>
-                        <a href="./our-process.html">Our Process</a>
-                    </li>
-                    <li>
-                        <a href="./Sustainability.html">Sustainability</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html">Contact</a>
-                    </li>
+                    <li><a href="./our-process.html">Our Process</a></li>
+                    <li><a href="./Sustainability.html">Sustainability</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
         </footer>
